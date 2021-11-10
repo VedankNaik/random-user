@@ -1,0 +1,117 @@
+.Header {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #6699d8;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+  display: inline-block;
+  padding: 10px;
+}
+
+.LogoutButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+.TopMargin {
+  margin-top: 250px;
+}
+
+.Footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #6699d8;
+  color: white;
+  font-size: 20px;
+}
+
+.Box {
+  position: relative;
+  left: 50%;
+  width: 600px;
+  height: 230px;
+  padding: 20px;
+  margin-top: 50px;
+  transform: translate(-50%, -50%);
+  border: 5px solid #6699d8;
+}
+
+.Picture {
+  float: left;
+  width: 40%;
+}
+
+.PhotoBox {
+  background-color: #6699d8;
+  width: 200px;
+  height: 180px;
+  border-radius: 25px;
+}
+
+.ImgAlign {
+  margin-top: 20px;
+  width: 160px;
+  height: 140px;
+}
+
+.Details {
+  float: left;
+  width: 60%;
+}
+
+.User {
+  margin-left: 10px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.Vertical {
+  border-left: 1px solid #6699d8;
+  height: 180px;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.Pagination {
+  margin-left: 250px;
+  margin-bottom: 80px;
+}
+
+.paginationButton {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationButton a {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #6699d8;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.paginationButton a:hover {
+  color: white;
+  background-color: #6699d8;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #6699d8;
+}
+
